@@ -1,0 +1,7 @@
+
+/*    these styles are stab-in-the-darky.  Override freely by passing in others or changing here*/
+.tile {
+    border: 1px solid var(--main-fg-color);
+    border-radius: var(--border-radius);
+    padding: 10px;
+}

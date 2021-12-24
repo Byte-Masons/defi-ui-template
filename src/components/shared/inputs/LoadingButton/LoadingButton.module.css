@@ -1,0 +1,12 @@
+.buttonLoader {
+    position: absolute;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+}
+
+.content.loading {
+    opacity: 0;
+}

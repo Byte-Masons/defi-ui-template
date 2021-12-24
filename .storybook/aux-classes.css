@@ -1,0 +1,12 @@
+/*  auxhilliary class used only by storybook for demonstration purposes.
+    Note the use of !important - this is due to the cascading nature of CSS
+    (this stylesheet is earlier in the cascade) - this is less of an issue when
+    using classes declared in component-based css-modules
+ */
+
+.bg-blue {
+    background-color: blue !important;
+}
+.fg-white {
+    color: white !important;
+}

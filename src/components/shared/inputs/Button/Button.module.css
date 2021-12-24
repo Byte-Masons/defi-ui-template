@@ -1,0 +1,31 @@
+.button {
+    align-items: center;
+    background-color: var(--button-bg-color);
+    border: 1px solid var(--button-fg-color);
+    border-radius: var(--border-radius);
+    color: var(--button-fg-color);
+    cursor: pointer;
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+    height: var(--input-height);
+    justify-content: center;
+    padding: 0px 20px;;
+}
+
+.button.inverse {
+    background-color: var(--button-fg-color);
+    border: 1px solid var(--button-bg-color);
+    color: var(--button-bg-color);
+}
+
+.button:hover {
+    background-color: var(--button-fg-color);
+    color: var(--button-bg-color);
+}
+
+.button.inverse:hover {
+    background-color: var(--button-fg-color);
+    color: var(--button-bg-color);
+    opacity: var(--input-hover-opacity);
+}
