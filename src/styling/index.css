@@ -1,0 +1,31 @@
+@import 'config.css';
+@import 'layout.css';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* we use a slightly smaller font on small devices, as they are typically closer to the users face */
+  font-size: 13px;
+}
+
+:root {
+  --side-well: calc((100vw - var(--max-content-width)) / 2);
+}
+
+
+@media only screen and (min-width: 400px) {
+  body {
+    /* we use a slightly larger font on large devices, as they are typically further away from the users face */
+    font-size: 15px;
+  }
+}

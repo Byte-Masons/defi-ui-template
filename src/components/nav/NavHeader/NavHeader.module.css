@@ -1,0 +1,33 @@
+.navItem {
+    color: inherit;
+    display: none;
+    font-size: 1.1rem;
+    font-weight: inherit;
+    text-decoration: none;
+}
+.navItem:hover {
+    opacity: var(--input-hover-opacity);
+}
+
+.navHeader {
+    font-weight: 600;
+}
+.navHeader .navItem {
+    margin: 0px 20px;
+}
+.navMenu .navItem {
+    display: block;
+    margin: 0;
+    padding: 15px
+}
+
+
+@media only screen and (min-width: 690px) {
+    .navItem {
+        display: block;
+    }
+
+    .menuButton {
+        display: none;
+    }
+}

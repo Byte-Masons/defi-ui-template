@@ -1,0 +1,15 @@
+@import 'config.css';
+
+
+/*-- classes to push content in from the sides when viewport is wider than
+our configured max content width */
+.welled-x {
+    padding: 0px var(--side-well);
+    width: 100vw;
+}
+.welled-left {
+    padding-left: var(--side-well);
+}
+.welled-right {
+    padding-left: var(--side-well);
+}

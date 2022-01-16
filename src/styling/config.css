@@ -1,0 +1,52 @@
+:root {
+    /*  base color scheme  */
+    --main-bg-color: #FAFAFA;
+    --main-fg-color: #2A2B2F;
+    --main-accent-color: #1D58EC;
+
+    --grey1: #E7E6E9;
+    --grey2: #CFCDD3;
+    --grey3: #B7B5BD;
+    --grey4: #9F9CA7;
+    --grey5: #878390;
+    --grey6: #706A7A;
+    --grey7: #3C3F41;
+    --grey8: #2B2B2B;
+
+
+    /*  configurable dimensions  */
+    --border-width: 3px;   /*  border thickness on elements such as header/footer  */
+    --footer-height: 40px;   /*  the height of the footer  */
+    --header-height: 50px;   /*  obvious, right?  */
+    --input-height: 40px;   /*  the height of buttons and text inputs  */
+    --input-hover-opacity: 0.8;   /*  the opacity of buttons and links when the cursor is over them. Set to 1 to remove the effect  */
+    --main-content-padding: 10px;   /*  the padding around main body content. Increase for a more 'spacious' feel  */
+    --max-content-width: 1200px;   /*  the max width of content, before we pad each side  */
+    --side-menu-width: 300px;   /*  the width of the side menu - both when used on its own, and when part of the NavHeader  */
+
+    --border-radius: calc(var(--input-height) / 2);
+
+
+    /*  2nd level theming  */
+    --button-bg-color: var(--main-bg-color);
+    --button-fg-color: var(--main-fg-color);
+
+    --footer-bd-color: var(--grey4);
+    --footer-bg-color: var(--main-bg-color);
+    --footer-fg-color: var(--main-fg-color);
+
+    /*  header colors also apply to the side menu:  */
+    --header-bd-color: var(--grey4);
+    --header-bg-color: var(--main-bg-color);
+    --header-fg-color: var(--main-fg-color);
+
+}
+
+/*  these dimensions override the ones above when on a viewport equal
+    to classic iPad (portrait) and above:  */
+@media only screen and (min-width: 690px) {
+    :root {
+        /*  configurable dimensions  */
+        --main-content-padding: 25px;
+    }
+}

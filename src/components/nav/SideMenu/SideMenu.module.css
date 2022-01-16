@@ -1,0 +1,22 @@
+
+.menuButton {
+    left: 15px;
+    position: absolute;
+}
+
+.sideMenu {
+    background-color: var(--header-bg-color);
+    border-right: var(--border-width) solid var(--header-bd-color);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    top: var(--header-height);
+    transition: all 0.4s ease-in-out;
+    transform: translateX(-310px);
+    width: 300px;
+    z-index: 100;
+}
+
+.sideMenuOpen {
+    transform: translateX(0);
+}

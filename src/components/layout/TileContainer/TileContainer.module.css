@@ -1,0 +1,15 @@
+.tileContainer {
+    align-items: stretch;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.centered {
+    justify-content: center;
+}
+.vertCentered {
+    align-items: center;
+}
+.vertical {
+    flex-flow: column;
+}

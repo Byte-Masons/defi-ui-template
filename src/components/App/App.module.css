@@ -1,0 +1,13 @@
+.container {
+    background-color: var(--main-bg-color);
+    min-height: 100vh;
+    padding-top: var(--header-height);
+}
+
+.content {
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+
+    /*  note: if different routes will have diff bg colors, remove padding from here,
+        and apply it to the container of each route: */
+    padding: var(--main-content-padding) var(--side-well);
+}
